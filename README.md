@@ -7,6 +7,7 @@
     * **Cluser Tier** : M0
     * **Cloud Provider**: Azure
     * **Version**: 7.0
+    * **Cluster Name**: search-demo
    
 * Create Database User
   * In the Atlas Console, navigate to Database Access
@@ -19,6 +20,12 @@
      * Select Add IP Address
      * Input the following IP Address 0.0.0.0/0
      * This will allow access from anywhere.
+   
+* Get Connection String
+  * Navigate to "Database" select Connect
+  * Select "Choose a connection method"
+  * Select "Compass"
+  * Copy connection string: mongodb+srv://<user_name>:<password>@<host_name>/      
 
 # Movie Search 
 Use **movie-search** folder
