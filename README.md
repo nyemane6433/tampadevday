@@ -21,6 +21,7 @@
      * This will allow access from anywhere.
 
 # Movie Search 
+Use **movie-search** folder
 ### index.json
 Search Index that uses dynamic mapping where every document and attribute and value will be indexed. \
 ```
@@ -90,6 +91,7 @@ exports = function(payload) {
 Modify **line 83** with your HTTPs endpoint created in Atlas App Services. 
 
 # Resume RAG using Jupyter Notebooks
+Use **vector-search** folder
 * **Samples** folder incldes sample resumes in pdf to be used as the dataset
 * Jupyer Notebook  
   * Pip installation: pip install notebook
